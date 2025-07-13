@@ -1,6 +1,9 @@
 import asyncio
 from pydantic_ai import Agent
 from pydantic_ai.mcp import MCPServerStdio
+from dotenv import load_dotenv
+
+load_dotenv()
 
 server = MCPServerStdio(  
     command="docker",
