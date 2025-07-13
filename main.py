@@ -3,7 +3,6 @@ from pydantic_ai import Agent
 from pydantic_ai.mcp import MCPServerStdio
 
 server = MCPServerStdio(  
-    'mcp-atlassian',
     command="docker",
     args=[
         "run",
