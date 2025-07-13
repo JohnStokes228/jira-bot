@@ -6,5 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "logfire>=3.24.0",
-    "pydantic-ai-slim[mcp]>=0.4.2",
+    "pydantic-ai-slim[mcp,openai]>=0.4.2",
 ]
