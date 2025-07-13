@@ -1,0 +1,10 @@
+[project]
+name = "jira-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "logfire>=3.24.0",
+    "pydantic-ai-slim[mcp]>=0.4.2",
+]
